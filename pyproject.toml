@@ -1,0 +1,15 @@
+[project]
+name = "package"
+version = "1.0.0"
+description = "Package for Ballsdex with DexI"
+requires-python = ">=3.12"
+license = "MIT"
+dependencies = [
+    "discord.py>=2.5.0",
+]
+
+[tool.dexi]
+public = true
+ballsdex-version = ">=2.22.0"
+directory = "Package"
+excluded = ["hide.py"]
