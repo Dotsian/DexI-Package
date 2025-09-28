@@ -12,4 +12,4 @@ dependencies = [
 public = true
 ballsdex-version = ">=2.22.0"
 directory = "Package"
-excluded = ["hide.py"]
+exclude = ["hide.py"]
