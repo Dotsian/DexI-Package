@@ -11,6 +11,7 @@ dependencies = [
 [tool.dexi]
 public = true
 ballsdex-version = ">=2.22.0"
+include-license = true
 
 [tool.dexi.package]
 source = "Package"
