@@ -1,6 +1,6 @@
-# DexI Package Example
+# DexI Package w/ Django App Example
 
-An example package that supports DexI installation.
+An example package with a Django app that supports DexI installation.<br>
 Make sure to check out the `pyproject.toml` file.
 
-*Example taken from the [Ballsdex custom package guide](https://gist.github.com/laggron42/75c1f1b191e1ded250d5043ced6118b4)*
+*You can also view what a normal package setup would look like on the [main branch](https://github.com/Dotsian/DexI-Package/tree/main)!*
