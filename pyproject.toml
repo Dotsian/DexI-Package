@@ -10,9 +10,15 @@ dependencies = [
 
 [tool.dexi]
 public = true
-ballsdex-version = ">=2.22.0"
+ballsdex-version = ">=2.25.0"
+include-license = true
 
 [tool.dexi.package]
 source = "Package"
-target = "package"
+target = "say"
 exclude = ["hide.py"]
+
+[tool.dexi.app]
+source = "App"
+target = "say"
+models = "models.py"
