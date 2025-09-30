@@ -11,5 +11,8 @@ dependencies = [
 [tool.dexi]
 public = true
 ballsdex-version = ">=2.22.0"
-directory = "Package"
+
+[tool.dexi.package]
+source = "Package"
+target = "package"
 exclude = ["hide.py"]
